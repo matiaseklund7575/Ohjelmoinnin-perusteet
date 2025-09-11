@@ -1,0 +1,9 @@
+Num1 = 47
+Num2 = 102
+Sum = int(Num1)+int(Num2)
+Diff = int(Num2)-int(Num1)
+Product = int(Sum)*int(Diff)
+print(Num1, "+", Num2, "=", Sum)
+print(Num2, "-", Num1, "=", Diff)
+print(Sum, "*", Diff, "=", Product)
+print("(", Num1, "+", Num2, ") * (", Num2, "-", Num1, ")", "=", Product)
