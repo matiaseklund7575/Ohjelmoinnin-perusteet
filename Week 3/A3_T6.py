@@ -27,7 +27,7 @@ elif choice1 == 2:
     if weightchoice == 1:
         grams1 = float(input("Insert grams: "))
         pounds1 = grams1 / 453.59237
-        print(f"{grams1} g is {round(pounds1, 4)} lb")
+        print(f"{grams1} g is {round(pounds1, 1)} lb")
     elif weightchoice == 2:
         pounds2 = float(input("Insert pounds: "))
         grams2 = pounds2 * 453.59237
