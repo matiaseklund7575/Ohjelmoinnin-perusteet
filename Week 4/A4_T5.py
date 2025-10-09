@@ -8,7 +8,7 @@ print() #tyhjä rivi
 
 if value2 < value1:
     print("Starting point value must be less than the stopping point value.")
-elif value3 > value2 or value3 < value1:
+if value3 > value2 or value3 < value1:
     print("Inspection value must be within the range of start and stop.")
 else:
     print("First loop - inspection with break:")
